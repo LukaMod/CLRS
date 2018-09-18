@@ -22,7 +22,7 @@ BidirectionalIt part(
         if (!compare(key, *j))
             std::swap(*j, *i++);
     }
-    std::swap(*i, key);
+    std::swap(*i, *x);
     return i;
 }
 
